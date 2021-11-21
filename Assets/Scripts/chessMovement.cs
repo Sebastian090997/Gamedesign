@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movementcontroller : MonoBehaviour
+public class chessMovement : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,4 +15,9 @@ public class movementcontroller : MonoBehaviour
     {
         
     }
+    //public void Move(Vector2Int direction)
+    //{
+    //    transform.position += new Vector3(direction.x, 0, direction.y);
+    //    GetComponent<Animator>().Play("chessMovement");
+    //}
 }
